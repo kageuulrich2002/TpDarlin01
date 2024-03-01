@@ -1,0 +1,21 @@
+Pour la prochaine séance :
+
+Soit cette liste
+const fruits = [
+    { id: 1, name: "Bannane" },
+    { id: 2, name: "Orange" },
+    { id: 3, name: "Citron" },
+    { id: 4, name: "Mangue" }
+  ]
+
+- Ecrire le code qui affiche tous ces éléments en utilisant la méthode map de javascript.
+- Ajouter un champs de texte et un bouton ajouter
+- Lorsqu'on ecris un élément dans le champs et qu'on clique sur ajouter ça ajoute l'élément dans notre liste et 
+ça met à jour automatiquement le DOM
+- Ajouter un autre champs permettant de filtrer les éléments: chaque fois qu'on entre dans le champs il doit filtrer les éléments de cette liste
+et afficher uniquement les éléments du tableau contenant ces valeurs
+- Devant chaque élément ajouter un boutton supprimer et implémenter la fonction de suppression de sorte que chaque fois qu'on supprime un élément le DOM est modifié en temps réel
+
+Si vous avz des questions je tout oui.
+
+C'est à faire pour la séance prochaine !

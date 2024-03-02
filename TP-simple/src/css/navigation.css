@@ -1,0 +1,25 @@
+ul {
+    list-style: none; 
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    /* padding-left: 300px; */
+}
+
+.activeLink {
+    font-weight: bold;
+    color: #FF00FF;
+}

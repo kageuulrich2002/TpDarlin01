@@ -9,6 +9,7 @@ import Home from './pages/home';
 import AddFruits from './pages/addFRuit';
 import { useState } from 'react';
 import DeleteFruit from './pages/deleteFRuit';
+import FineFruit from './pages/fineFruit';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
                 <Route path='/' element={<Home fruits={fruits}  setFruits={setFruits}/>} />
                 <Route path='/add' element={<AddFruits fruits={fruits}  setFruits={setFruits} />} />
                 <Route path='/delete' element={<DeleteFruit fruits={fruits}  setFruits={setFruits} />} />
+                <Route path='/fine' element={<FineFruit fruits={fruits}  setFruits={setFruits}  />} />
             </Routes>
           </div>
     </>

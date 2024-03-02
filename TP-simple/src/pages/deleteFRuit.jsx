@@ -5,7 +5,7 @@ export default function DeleteFruit({fruits, setFruits}) {
             const fruitsCopy = fruits.slice()
 
         //2. modifier le state avec le setter
-            const fruitCopyDom = fruitsCopy.filter((fruitMap,) =>fruitMap.id !== id) // on prend 'fruitCopyDom' on le filtre pour chaque element de [fruitMap] on concerve les fruitMap.id diff de "id"
+            const fruitCopyDom = fruitsCopy.filter((fruitMap) =>fruitMap.id !== id) // on prend 'fruitCopyDom' on le filtre pour chaque element de [fruitMap] on concerve les fruitMap.id diff de "id"
         
         //3. effectué le Dom caché
         setFruits(fruitCopyDom)
